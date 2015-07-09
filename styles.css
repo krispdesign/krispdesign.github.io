@@ -1,0 +1,55 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #b3b3b3;
+    margin:0;
+}
+
+/* Layout
+------------------------------------------*/
+header,
+.container,
+footer {
+    margin: 0 auto;
+    width:88%;
+    max-width: 960px;
+}
+.wrapper {
+    background: #fff;
+    padding:1em 0;
+}
+
+.page-heading {
+    background-color: black;
+    color: white;
+}
+
+main {
+    float: left;
+
+}
+
+
+
+/* Nav
+------------------------------------------*/
+
+nav ul {
+    padding:0;
+}
+nav ul li {
+    float: right;
+    margin-right: .5em;
+    list-style:none;
+}
+
+
+/* Misc.
+------------------------------------------*/
+.clearfix:after {
+    content:".";
+    display:block;
+    height: 0;
+    clear:both;
+    visibility:hidden;
+}
